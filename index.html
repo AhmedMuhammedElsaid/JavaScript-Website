@@ -1,0 +1,91 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Comfy House</title>
+    <!-- Font Awsome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"
+        integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M" crossorigin="anonymous">
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- NavBar -->
+    <nav class="navbar">
+        <div class="navbar-center">
+            <span class="nav-icon">
+                <i class="fas fa-bars"></i>
+            </span>
+            <img src="./images/logo.svg" alt="Store Logo">
+            <div class="cart-btn">
+                <span class="nav-icon">
+                    <i class="fas fa-cart-plus"></i>
+                </span>
+                <div class="cart-items">
+                    0
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--End of NavBar -->
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="banner">
+            <h1 class="banner-title">Furniture Collections</h1>
+            <button class="banner-btn">Shop Now</button>
+        </div>
+    </header>
+    <!-- End Of Hero Section -->
+
+    <!-- Products Section -->
+    <section class="products">
+        <div class="section-title">
+            <h2>Our Products</h2>
+        </div>
+        <div class="products-center">
+            <!-- Single Product -->
+            <article class="product">
+                <div class="img-container">
+                    <img src="./images/product-1.jpeg" alt="Product" class="product-img">
+                    <button class="bag-btn" data-id="1">
+                        <i class="fa fa-shopping-cart"></i>
+                        add To bag
+                    </button>
+                </div>
+                <h3>queen bed</h3>
+                <h4>16$</h4>
+            </article>
+            <!--  End Of Single Product -->
+        </div>
+    </section>
+    <!-- End Of Products Section -->
+
+
+    <!-- Cart Section -->
+    <div class="cart-overlay">
+        <div class="cart">
+            <span class="close-cart">
+                <i class="fa fa-window-close"></i>
+            </span>
+            <h2>Your Cart</h2>
+            <div class="cart-content">
+                <!-- Cart Item -->
+                <!-- <div class="cart-item">
+                   
+                </div> -->
+            </div>
+            <div class="cart-footer">
+                <h3>Your Total : $ <span class="cart-total">0</span> </h3>
+                <button class="clear-cart banner-btn"> Clear Cart </button>
+            </div>
+        </div>
+    </div>
+    <!-- End Of Cart Section -->
+    <script src="app.js"></script>
+</body>
+
+</html>
